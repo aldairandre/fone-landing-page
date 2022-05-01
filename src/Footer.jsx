@@ -1,6 +1,6 @@
 export default function Footer(){
     return(
-        <footer>
+        <footer className="animate__animated animate__fadeInUp animate__delay-1s">
             <div className="container-footer">
                 <div className="info-footer">
                     <i className="bi bi-activity"></i>

@@ -3,10 +3,10 @@ import './App.css'
 export default function MainContent(){
     return(
         <main>
-            <div className='conteiner-img'>
+            <div className='conteiner-img animate__animated animate__fadeInLeft animate__delay-1s'>
                 <img src='/assets/fone.png' alt='fone' className='fone-img'/>
             </div>
-            <div className='container-info'>
+            <div className='container-info conteiner-img animate__animated animate__fadeInRight animate__delay-1s'>
                 <h1>
                     HYPER X ON-EAR
                 </h1>

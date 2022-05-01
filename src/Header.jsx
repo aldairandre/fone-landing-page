@@ -2,7 +2,7 @@ import './App.css'
 
 export default function Header(){
     return(
-        <header>
+        <header className='animate__animated animate__fadeInDown animate__delay-1s'>
             <div className="container-logo">
                 <img src="/assets/logo.svg" alt="logotipo"/>
             </div>
