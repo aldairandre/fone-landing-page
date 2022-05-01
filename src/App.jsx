@@ -1,5 +1,4 @@
 import './App.css'
-import Conteudo from './Conteudo'
 import Footer from './Footer'
 import Header from './Header'
 import MainContent from './Main-Content'
