@@ -190,26 +190,38 @@ main{
 footer {
     width: 100%;
     position: absolute;
-    top: 86vh;
+    top: 89vh;
     display: flex;
     justify-content: space-around;
 }
 
 .container-footer{
     display: flex;
-    width: 64%;
+    width: 94%;
     padding: 1% 2%;
     position: relative;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     background-color: #fcf7da;
+    justify-content: center;
     
+}
+
+@media screen and(max-width:1024px) {
+    .container-footer{
+        width: 94%;
+        justify-content: center;
+    }
+
+    .info-footer {
+        width: 22%; 
+    }
 }
 
 .info-footer {
     display: flex;
     align-items: center;
-    width: 50%;
+    width: 22%;
     
 }
 
