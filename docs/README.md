@@ -2,7 +2,8 @@
 <p align="center">
     <img src="../public/design/online-print.png" alt="Logo" width="1000">
 
-  <h3 align="center">Code by <a href="https://www.linkedin.com/in/aldair-andre-8b655b213/">Aldair André</a></h3>
+  <h3 align="center">Code by <a href="https://www.linkedin.com/in/aldair-andre-8b655b213/">Aldair André</a></h3><br/>
+  Online: <a href="https://fone-landing-page.netlify.app/">https://fone-landing-page.netlify.app/</a>
  <br />
   <p align="center">
      Página para compra de um fone de ouvido
