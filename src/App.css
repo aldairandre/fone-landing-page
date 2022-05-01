@@ -317,11 +317,11 @@ footer {
     }
 
     .container-info h1 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .buy{
-        width: 97%;
+        width: 100%;
     }
 
     .price{
@@ -353,4 +353,14 @@ footer {
         font-size: 1rem;
         margin-right: 20px;
     }   
+}
+
+@media screen and (max-width:320px) {
+    .container-info h1 {
+        font-size: 1.7rem;
+    }
+
+    .container-info {
+        width: 79%;
+    }
 }
