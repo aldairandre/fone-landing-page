@@ -202,6 +202,8 @@ footer {
     position: relative;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    background-color: #fcf7da;
+    
 }
 
 .info-footer {
@@ -263,7 +265,7 @@ footer {
     footer {
         position: relative;
         display: flex;
-        top: 10vh;
+        top: 20vh;
     }
     
     .container-footer{
@@ -273,14 +275,17 @@ footer {
         position: relative;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
+        width: 70%;
     }
     
     .info-footer {
         width: 70%;
         justify-content: start;
+        margin-bottom: 2%;
     }
     
     .info-footer i{
+        font-size: 1.3rem;
         margin-right: 20px;
     }
         
