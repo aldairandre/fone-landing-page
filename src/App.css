@@ -43,6 +43,7 @@ header nav {
     width: 20%;
 }
 
+
 .icons-menu{
     width: 7%;
 }
@@ -90,13 +91,11 @@ header nav {
 }
 
 
-
-
 /*Main*/
 
 main{
     width: 100%;
-    height: 90vh;
+    height: 100%;
     display: flex;
     justify-content: space-around; 
 }
@@ -111,7 +110,7 @@ main{
 .container-info {
     width: 25%;
     height: 100%;
-    margin-top: 8%;
+    margin-top: 9%;
     display: flex;
     flex-direction: column;
 }
@@ -127,7 +126,7 @@ main{
 
 @media screen and (max-width:1440px) {
     .conteiner-img {
-        height: 60%;
+        height: 70%;
     }
 }
 
@@ -169,7 +168,6 @@ main{
 }
 
 .add-cart {
-    
     height: 100%;
     padding: 4%;
     background: var(--red);
@@ -190,18 +188,100 @@ main{
 }
 
 footer {
-    position: absolute;
-    top: 100vh;
     width: 100%;
-    background-color: aqua;
+    position: absolute;
+    top: 86vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+}
+
+.container-footer{
+    display: flex;
+    width: 64%;
+    padding: 1% 2%;
+    position: relative;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .info-footer {
     display: flex;
-    flex-direction: row;
-    width: 100%;
-    background-color: blueviolet;
-    position: relative;
+    align-items: center;
+    width: 50%;
+    
+}
+
+.info-footer i{
+    margin-right: 10px;
+}
+
+/*Mobile*/
+
+@media screen and (max-width:768px) {
+    header nav {
+        display: none;
+    }
+    .container-logo {
+        height: 100%;
+        cursor: pointer;
+    }
+
+    .icons-menu{
+        width: 18%;
+    }
+
+    .icons-menu ul li i {
+        font-size: 2rem;
+    }
+
+    main{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .conteiner-img{
+        width: 50%;
+        margin-top: 10%;
+    }
+
+    .container-info{
+        width: 50%;
+    }
+
+    .container-info h1 {
+        font-size: 2.4rem;
+    }
+
+    .buy{
+        width: 92%;
+    }
+
+    .add-cart{
+        width: 66%;
+    }
+
+    footer {
+        position: relative;
+        display: flex;
+        top: 10vh;
+    }
+    
+    .container-footer{
+        flex-direction: column;
+        align-items: center;
+        padding: 0% 0%;
+        position: relative;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .info-footer {
+        width: 70%;
+        justify-content: start;
+    }
+    
+    .info-footer i{
+        margin-right: 20px;
+    }
+        
 }
